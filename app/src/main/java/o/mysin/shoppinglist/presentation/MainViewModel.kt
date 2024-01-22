@@ -2,7 +2,7 @@ package o.mysin.shoppinglist.presentation
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
-import androidx.lifecycle.viewModelScoper
+import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
 import o.mysin.shoppinglist.data.ShopListRepositoryImpl
 import o.mysin.shoppinglist.domain.EditShopItemUseCase
